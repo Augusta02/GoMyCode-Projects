@@ -1,0 +1,7 @@
+Write a program that will find all numbers which are divisible by 7 but are not a multiple of 5, between 2000 and 3200 (both included). The numbers obtained should be printed in a list.
+x = []
+for n in range(2000, 3201):
+  if (n%7==0) and (n%5!=0):
+    x.append(str(n))
+    
+print(",".join(x))
