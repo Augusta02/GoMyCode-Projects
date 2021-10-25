@@ -1,0 +1,5 @@
+Write a program that can compute the factorial of a given number. (the factorial of N is the product of all positive integers less than or equal to n)
+import math
+num=int(input("Enter the number: "))
+print("factorial of ",num,"(function):",end="")
+print(math.factorial(num))
