@@ -1,0 +1,8 @@
+Given a non-empty string and an int n, return a new string where the char at index n has been removed. The value of n will be a valid index of a char in the orginal string.
+def remove_char(str, n):
+      first_part = str[:n] 
+      last_part = str[n+1:]
+      return first_part + last_part
+print(remove_char('Carpenter', 0))
+print(remove_char('Carpenter', 3))
+print(remove_char('Carpenter', 8))
