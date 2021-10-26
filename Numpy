@@ -1,0 +1,6 @@
+Write a Numpy program to convert a Numpy array into a Python list structure.
+
+import numpy as np
+array = np.array([[278,3567,688,900], [300,490,2.90,478]])
+new_array = array.tolist()
+print(new_array)
