@@ -1,0 +1,7 @@
+Write a Numpy program to compute the covariance matrix of two given arrays.
+
+import numpy as np.
+array1 = [3,7,9]
+array2 = [0,14,2]
+new_array = np.cov (array1, array2)
+print(new_array)
